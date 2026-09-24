@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Эскиз регионального центра СПО в Луганске</title>
+  <desc id="desc">Трёхэтажный кампус с остеклённым атриумом, мастерскими, общественной площадью и озеленением.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#c8dce2"/><stop offset="1" stop-color="#f4eee4"/></linearGradient>
+    <linearGradient id="walls" x2="0" y2="1"><stop stop-color="#f5f1e9"/><stop offset="1" stop-color="#d5d5cc"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#a3c2cd"/><stop offset=".48" stop-color="#417080"/><stop offset="1" stop-color="#1b3d4e"/></linearGradient>
+    <linearGradient id="side" x2="0" y2="1"><stop stop-color="#c2cac4"/><stop offset="1" stop-color="#84948e"/></linearGradient>
+    <pattern id="windows" width="72" height="90" patternUnits="userSpaceOnUse"><rect x="5" y="8" width="55" height="57" rx="2" fill="url(#glass)"/><path d="M32 8v57M5 37h55" stroke="#d8e2db" stroke-width="3"/><path d="M9 13 28 10 10 53" fill="#d5e6e4" opacity=".28"/></pattern>
+    <pattern id="louvres" width="22" height="25" patternUnits="userSpaceOnUse"><path d="M8 0v25" stroke="#bdc5bb" stroke-width="7" opacity=".72"/></pattern>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feGaussianBlur stdDeviation="19"/></filter>
+  </defs>
+  <rect width="1200" height="720" fill="url(#sky)"/>
+  <path d="M0 520 Q250 460 480 515T1200 500V720H0Z" fill="#d9ddcf"/>
+  <path d="M0 632 220 570 1045 570 1200 645v75H0Z" fill="#e7e5db"/>
+  <path d="M68 675 343 586 1030 603 1173 665" fill="none" stroke="#f5f2e7" stroke-width="35"/>
+  <ellipse cx="629" cy="610" rx="509" ry="38" fill="#42535b" opacity=".2" filter="url(#shadow)"/>
+  <!-- Rear wing and its roof. -->
+  <path d="M821 240 1049 305 1049 542 821 574Z" fill="url(#side)" stroke="#5b706f" stroke-width="2"/>
+  <path d="M843 302 1019 348 1019 487 843 460Z" fill="url(#glass)" opacity=".82"/>
+  <path d="M845 343 1018 386M845 394 1018 436M904 317v157M965 332v158" stroke="#dce5dd" stroke-width="6"/>
+  <path d="M790 219 1011 268 1070 314 825 265Z" fill="#233e4b"/>
+  <path d="M801 245 1050 317" stroke="#f6f0df" stroke-width="9"/>
+  <!-- Building body. -->
+  <path d="M128 282 841 263 841 568 128 593Z" fill="url(#walls)" stroke="#748788" stroke-width="2"/>
+  <path d="M157 311 808 294 808 524 157 548Z" fill="url(#windows)"/>
+  <path d="M152 370 810 350M152 454 810 436M152 542 810 516" stroke="#e8e9df" stroke-width="15"/>
+  <path d="M137 289 823 272 823 561 811 560 811 296 137 313Z" fill="url(#louvres)" opacity=".83"/>
+  <path d="M110 273 844 250 868 278 110 301Z" fill="#f8f6ed" stroke="#d0d5cb" stroke-width="2"/>
+  <path d="M108 283 863 260" stroke="#415f6c" stroke-width="6"/>
+  <!-- Entrance atrium and portal. -->
+  <path d="M419 296 641 290 641 575 419 582Z" fill="#e9e9dc"/>
+  <path d="M435 313 628 308 628 575 435 578Z" fill="url(#glass)"/>
+  <path d="M482 310v266M579 309v267M435 392h193M435 480h193" stroke="#dfe8e2" stroke-width="7"/>
+  <path d="M436 318 478 315 452 475 435 490Z" fill="#e5f3ed" opacity=".25"/>
+  <path d="M580 312 610 311 546 480 525 480Z" fill="#e5f3ed" opacity=".17"/>
+  <path d="M407 294 649 287 649 311 407 318Z" fill="#164957"/>
+  <path d="M399 306v281M657 301v277" stroke="#f5f2e8" stroke-width="16"/>
+  <path d="M465 523h131v60H465Z" fill="#244857"/>
+  <path d="M533 523v60" stroke="#bcd4d1" stroke-width="4"/>
+  <path d="M390 575 650 567 712 606 345 621Z" fill="#d1d1c8"/>
+  <path d="M378 591 666 584" stroke="#fcf9ed" stroke-width="6"/>
+  <path d="M369 603 684 597" stroke="#f4f0e4" stroke-width="5"/>
+  <!-- Public-space elements. -->
+  <path d="M104 619 267 576 315 582 176 642Z" fill="#809a7c" opacity=".7"/>
+  <path d="M839 583 990 566 1090 619 918 622Z" fill="#91a987"/>
+  <g fill="#446f58"><ellipse cx="94" cy="482" rx="34" ry="72"/><ellipse cx="114" cy="496" rx="42" ry="61"/><ellipse cx="1082" cy="467" rx="36" ry="75"/><ellipse cx="1121" cy="480" rx="31" ry="61"/></g>
+  <path d="M104 514v89M1099 511v89" stroke="#655e4d" stroke-width="8"/>
+  <g fill="#395961"><circle cx="311" cy="563" r="8"/><path d="M305 570h12l5 34h-22Z"/><circle cx="754" cy="547" r="8"/><path d="M748 554h12l5 35h-22Z"/></g>
+  <path d="M130 652 325 596M845 591l188 59" stroke="#526f61" stroke-width="5" opacity=".7"/>
+</svg>

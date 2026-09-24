@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 920" role="img" aria-labelledby="title desc">
+  <title id="title">Эскизная функциональная схема трёх этажей регионального центра СПО</title>
+  <desc id="desc">Первый этаж отведён мастерским и общественным пространствам, второй — лабораториям, третий — методической работе и повышению квалификации.</desc>
+  <style>
+    text{font-family:Arial,sans-serif;fill:#123b4b}.heading{font-size:41px;font-weight:700}.sub{font-size:19px;fill:#54726e}.floor{font-size:29px;font-weight:700}.area{font-size:17px;fill:#54726e}.room{font-size:18px;font-weight:700}.small{font-size:15px;fill:#52706b}.line{stroke:#fff;stroke-width:9}.door{stroke:#27736c;stroke-width:4;fill:none}
+  </style>
+  <rect width="1800" height="920" fill="#f4f6f1"/>
+  <rect width="1800" height="127" fill="#123b4b"/>
+  <text x="74" y="72" class="heading" fill="#fff" style="fill:#fff">Региональный центр СПО · Луганск</text>
+  <text x="75" y="109" class="sub" fill="#cde2d7" style="fill:#cde2d7">ЭСКИЗНЫЕ ФУНКЦИОНАЛЬНЫЕ ПЛАНЫ · СХЕМА, НЕ СТРОИТЕЛЬНЫЙ ЧЕРТЁЖ</text>
+  <!-- Floor 1 -->
+  <g transform="translate(62 160)">
+    <rect width="534" height="676" rx="14" fill="#fff" stroke="#b7cbc5" stroke-width="2"/>
+    <text x="27" y="48" class="floor">01 / Практика</text><text x="27" y="77" class="area">≈ 2 600 м² · первый этаж</text>
+    <rect x="28" y="108" width="478" height="480" rx="4" fill="#e2ece4" stroke="#5c9587" stroke-width="4"/>
+    <rect x="38" y="118" width="212" height="162" fill="#b9ddcc" class="line"/><text x="58" y="168" class="room">Мастерская</text><text x="58" y="196" class="small">металлообработки</text>
+    <rect x="255" y="118" width="242" height="162" fill="#b9ddcc" class="line"/><text x="280" y="168" class="room">Мастерская</text><text x="280" y="196" class="small">сварки</text>
+    <rect x="38" y="285" width="155" height="290" fill="#dce8ed" class="line"/><text x="54" y="339" class="room">Зал</text><text x="54" y="366" class="small">событий</text>
+    <rect x="198" y="285" width="139" height="290" fill="#fff" class="line"/><text x="212" y="373" class="room">Атриум</text><text x="212" y="400" class="small">и вход</text>
+    <rect x="342" y="285" width="155" height="290" fill="#e9e6d9" class="line"/><text x="360" y="341" class="room">Сервис</text><text x="360" y="368" class="small">и приёмка</text>
+    <path d="M267 620v-50" class="door"/><path d="m255 583 12-13 12 13" class="door"/>
+    <text x="28" y="646" class="small">Отдельный подъезд к мастерским</text>
+  </g>
+  <!-- Floor 2 -->
+  <g transform="translate(633 160)">
+    <rect width="534" height="676" rx="14" fill="#fff" stroke="#b7cbc5" stroke-width="2"/>
+    <text x="27" y="48" class="floor">02 / Технологии</text><text x="27" y="77" class="area">≈ 2 100 м² · второй этаж</text>
+    <rect x="28" y="108" width="478" height="480" rx="4" fill="#dbe9e6" stroke="#5c9587" stroke-width="4"/>
+    <rect x="38" y="118" width="212" height="162" fill="#bcd8da" class="line"/><text x="55" y="170" class="room">Робототехника</text>
+    <rect x="255" y="118" width="242" height="162" fill="#bcd8da" class="line"/><text x="273" y="169" class="room">Цифровое</text><text x="273" y="196" class="small">проектирование</text>
+    <rect x="38" y="285" width="155" height="290" fill="#d3e2e7" class="line"/><text x="50" y="341" class="room">Электро-</text><text x="50" y="368" class="small">ника</text>
+    <rect x="198" y="285" width="139" height="290" fill="#fff" class="line"/><text x="212" y="373" class="room">Атриум</text><text x="212" y="400" class="small">и связи</text>
+    <rect x="342" y="285" width="155" height="290" fill="#dce8ed" class="line"/><text x="358" y="339" class="room">Учебные</text><text x="358" y="366" class="small">аудитории</text>
+    <text x="28" y="646" class="small">Трансформируемые пространства</text>
+  </g>
+  <!-- Floor 3 -->
+  <g transform="translate(1204 160)">
+    <rect width="534" height="676" rx="14" fill="#fff" stroke="#b7cbc5" stroke-width="2"/>
+    <text x="27" y="48" class="floor">03 / Развитие</text><text x="27" y="77" class="area">≈ 1 500 м² · третий этаж</text>
+    <rect x="28" y="108" width="478" height="480" rx="4" fill="#e0ece5" stroke="#5c9587" stroke-width="4"/>
+    <rect x="38" y="118" width="212" height="162" fill="#c9dfcc" class="line"/><text x="56" y="169" class="room">Методический</text><text x="56" y="196" class="small">центр</text>
+    <rect x="255" y="118" width="242" height="162" fill="#c9dfcc" class="line"/><text x="275" y="169" class="room">Студия</text><text x="275" y="196" class="small">цифровых курсов</text>
+    <rect x="38" y="285" width="155" height="290" fill="#d9e9db" class="line"/><text x="53" y="341" class="room">Медиа-</text><text x="53" y="368" class="small">тека</text>
+    <rect x="198" y="285" width="139" height="290" fill="#fff" class="line"/><text x="212" y="373" class="room">Атриум</text><text x="212" y="400" class="small">и связи</text>
+    <rect x="342" y="285" width="155" height="290" fill="#e4e9dc" class="line"/><text x="357" y="341" class="room">Классы</text><text x="357" y="368" class="small">и эксперты</text>
+    <text x="28" y="646" class="small">Повышение квалификации педагогов</text>
+  </g>
+  <text x="64" y="890" class="small">Границы помещений, площади и потоки уточняются при разработке архитектурного проекта и выполнении инженерных изысканий.</text>
+</svg>

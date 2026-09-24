@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">Футуристический кампус регионального центра СПО</title>
+  <desc id="desc">Концептуальный эскиз трёхэтажного кампуса с прозрачным атриумом, производственными мастерскими и цифровым ядром.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080f2a"/><stop offset=".55" stop-color="#172b63"/><stop offset="1" stop-color="#351e72"/></linearGradient>
+    <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#8fe8ff" stop-opacity=".72"/><stop offset="1" stop-color="#3f5de4" stop-opacity=".18"/></linearGradient>
+    <linearGradient id="lime" x2="1"><stop stop-color="#c9ff50"/><stop offset="1" stop-color="#62f2dd"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#8aa4ef" stroke-opacity=".13"/></pattern>
+  </defs>
+  <rect width="1600" height="720" fill="url(#bg)"/>
+  <rect width="1600" height="720" fill="url(#grid)"/>
+  <circle cx="1280" cy="90" r="210" fill="#6479ff" opacity=".2" filter="url(#glow)"/>
+  <path d="M0 620L420 550 900 598 1600 480V720H0Z" fill="#050a1d" opacity=".65"/>
+  <path d="M250 590L590 495 1210 525 1400 590 920 670Z" fill="#0c1433" stroke="#91a9ff" stroke-opacity=".35"/>
+  <g stroke="#c9ff50" stroke-width="3" fill="none" opacity=".9">
+    <path d="M325 575V258L730 172V519Z"/>
+    <path d="M730 172L1085 242V535L730 519Z"/>
+    <path d="M1085 242L1300 312V568L1085 535Z"/>
+    <path d="M325 368L730 296L1085 361L1300 421" opacity=".7"/>
+    <path d="M325 470L730 404L1085 463L1300 520" opacity=".7"/>
+  </g>
+  <g fill="url(#glass)" stroke="#90e7ff" stroke-opacity=".55" stroke-width="2">
+    <path d="M350 281L704 206V287L350 360Z"/><path d="M350 392L704 323V401L350 467Z"/><path d="M350 500L704 437V498L350 554Z"/>
+    <path d="M758 207L1056 268V342L758 294Z"/><path d="M758 327L1056 375V451L758 410Z"/><path d="M758 450L1056 486V522L758 502Z"/>
+    <path d="M1112 272L1264 322V394L1112 353Z"/><path d="M1112 384L1264 429V501L1112 464Z"/><path d="M1112 494L1264 535V556L1112 526Z"/>
+  </g>
+  <path d="M704 206L758 218V505L704 498Z" fill="#0b1230" stroke="url(#lime)" stroke-width="5"/>
+  <path d="M730 244V469" stroke="#c9ff50" stroke-width="8" opacity=".7" filter="url(#glow)"/>
+  <g fill="#c9ff50" font-family="Arial,sans-serif" font-weight="700" letter-spacing="4">
+    <text x="86" y="112" font-size="18">REGIONAL SPO CAMPUS / 01</text>
+    <text x="115" y="625" font-size="16">PUBLIC ATRIUM</text><text x="585" y="135" font-size="16">DIGITAL CORE</text><text x="1090" y="212" font-size="16">WORKSHOPS</text>
+  </g>
+  <g fill="#d5e4ff" font-family="Arial,sans-serif" font-size="13" letter-spacing="2"><text x="86" y="145">КОНЦЕПЦИЯ НА ОСНОВЕ ПРАКТИКИ КЛАСТЕРА СПЭТ</text><text x="115" y="650">ПЕРВЫЙ ЭТАЖ / DEMO + WELDING</text><text x="585" y="160">ЧПУ / CAD-CAM / LABS</text><text x="1090" y="237">PRODUCTION / TEAMWORK</text></g>
+  <g fill="url(#lime)" filter="url(#glow)"><circle cx="325" cy="258" r="6"/><circle cx="730" cy="172" r="6"/><circle cx="1085" cy="242" r="6"/><circle cx="1300" cy="312" r="6"/></g>
+</svg>

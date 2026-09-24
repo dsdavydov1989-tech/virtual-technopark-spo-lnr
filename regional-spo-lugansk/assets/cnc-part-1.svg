@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img" aria-labelledby="title desc">
+  <title id="title">Ступенчатый вал</title><desc id="desc">Передняя ступень диаметром 20 и длиной 20 мм, задняя часть диаметром 30 и длиной 20 мм.</desc>
+  <rect width="480" height="260" fill="#e9edfb"/><path d="M70 100H210V75H370V185H210V160H70Z" fill="#8199d9" stroke="#223e87" stroke-width="3"/>
+  <path d="M45 130H430" stroke="#5270a8" stroke-width="1.5" stroke-dasharray="9 6"/>
+  <g fill="#182d62" font-family="Arial,sans-serif" font-size="14"><text x="115" y="90">Ø20</text><text x="270" y="64">Ø30</text><text x="82" y="213">20 мм</text><text x="262" y="213">20 мм</text><text x="68" y="242">Z0 | Z− →</text></g>
+  <path d="M70 194v28m140-28v28m160-28v28M76 221h128m12 0h148" stroke="#365796" stroke-width="1.5"/>
+</svg>

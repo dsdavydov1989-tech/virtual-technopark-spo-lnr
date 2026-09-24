@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img" aria-labelledby="title desc">
+  <title id="title">Пластина с прямоугольным карманом</title><desc id="desc">Пластина 80 на 60 мм и карман 40 на 30 мм глубиной 2 мм с радиусом внутренних углов 5 мм.</desc>
+  <rect width="480" height="260" fill="#e9edfb"/><rect x="80" y="40" width="320" height="180" fill="#8199d9" stroke="#223e87" stroke-width="3"/><rect x="160" y="85" width="160" height="90" rx="20" fill="#4662ab" stroke="#223e87" stroke-width="3"/>
+  <g fill="#182d62" font-family="Arial,sans-serif" font-size="14"><text x="215" y="31">80 мм</text><text x="405" y="128">60 мм</text><text x="220" y="77">40 мм</text><text x="222" y="134" fill="#fff">30 мм</text><text x="166" y="164" fill="#fff">Z−2</text><text x="27" y="241">G54 (0;0) ↗</text></g>
+  <circle cx="80" cy="220" r="5" fill="#c65564"/>
+</svg>
