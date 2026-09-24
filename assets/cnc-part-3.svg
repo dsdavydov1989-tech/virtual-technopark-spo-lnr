@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img" aria-labelledby="title desc">
+  <title id="title">Конический палец</title><desc id="desc">Конус длиной 30 мм; диаметры 20 мм у переднего торца и 30 мм у заднего.</desc>
+  <rect width="480" height="260" fill="#e9edfb"/><path d="M70 95 390 75V185L70 165Z" fill="#8199d9" stroke="#223e87" stroke-width="3"/>
+  <path d="M42 130H427" stroke="#5270a8" stroke-width="1.5" stroke-dasharray="9 6"/>
+  <g fill="#182d62" font-family="Arial,sans-serif" font-size="14"><text x="73" y="84">Ø20</text><text x="342" y="64">Ø30</text><text x="210" y="219">30 мм</text><text x="69" y="244">Z0 | Z− →</text></g>
+  <path d="M70 184v43m320-26v26M76 225h308" stroke="#365796" stroke-width="1.5"/>
+</svg>

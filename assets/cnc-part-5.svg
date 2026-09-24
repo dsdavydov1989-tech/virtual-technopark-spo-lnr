@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img" aria-labelledby="title desc">
+  <title id="title">Пластина с четырьмя отверстиями</title><desc id="desc">Пластина 80 на 60 мм толщиной 8 мм и четыре сквозных отверстия диаметром 6 мм.</desc>
+  <rect width="480" height="260" fill="#e9edfb"/><rect x="80" y="40" width="320" height="180" fill="#8199d9" stroke="#223e87" stroke-width="3"/>
+  <g fill="#e9edfb" stroke="#223e87" stroke-width="3"><circle cx="140" cy="85" r="13"/><circle cx="340" cy="85" r="13"/><circle cx="140" cy="175" r="13"/><circle cx="340" cy="175" r="13"/></g>
+  <g fill="#182d62" font-family="Arial,sans-serif" font-size="14"><text x="215" y="31">80 мм</text><text x="405" y="125">60 мм</text><text x="215" y="136">4 × Ø6 · сквозные</text><text x="208" y="201">50 мм между центрами</text><text x="27" y="241">G54 (0;0) ↗</text><text x="355" y="243">толщина 8 мм</text></g>
+  <circle cx="80" cy="220" r="5" fill="#c65564"/>
+</svg>

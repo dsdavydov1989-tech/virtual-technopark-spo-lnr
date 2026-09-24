@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img" aria-labelledby="title desc">
+  <title id="title">Валик с кольцевой канавкой</title><desc id="desc">Валик диаметром 30 и длиной 40 мм с канавкой диаметром 24 шириной 6 мм.</desc>
+  <rect width="480" height="260" fill="#e9edfb"/><path d="M70 75H192V90H250V75H400V185H250V170H192V185H70Z" fill="#8199d9" stroke="#223e87" stroke-width="3"/>
+  <path d="M42 130H430" stroke="#5270a8" stroke-width="1.5" stroke-dasharray="9 6"/>
+  <g fill="#182d62" font-family="Arial,sans-serif" font-size="14"><text x="100" y="65">Ø30</text><text x="199" y="112">Ø24</text><text x="195" y="218">6 мм</text><text x="100" y="218">14 мм</text><text x="70" y="244">Z0 | Z− →</text></g>
+  <path d="M70 194v34m122-34v34m58-34v34M76 225h110m12 0h46" stroke="#365796" stroke-width="1.5"/>
+</svg>
