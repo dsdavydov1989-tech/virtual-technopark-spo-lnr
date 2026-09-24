@@ -63,6 +63,74 @@ floorTabs.forEach((tab, index) => {
 });
 showFloor(1);
 
+const cncTabs = [...document.querySelectorAll('.cnc-program-tab')];
+const cncExamples = [...document.querySelectorAll('.cnc-examples > .cnc-example')];
+
+function showCncProgram(number, focus = false) {
+  const activeTab = cncTabs.find((tab) => tab.dataset.cncTab === String(number));
+  const activeExample = cncExamples.find((example) => example.id === `cnc-part-${number}`);
+  if (!activeTab || !activeExample) return;
+
+  cncTabs.forEach((tab) => {
+    const active = tab === activeTab;
+    tab.classList.toggle('is-active', active);
+    tab.setAttribute('aria-selected', String(active));
+    tab.tabIndex = active ? 0 : -1;
+    if (active && focus) tab.focus();
+  });
+  cncExamples.forEach((example) => {
+    const active = example === activeExample;
+    example.hidden = !active;
+    example.setAttribute('aria-hidden', String(!active));
+  });
+}
+
+cncTabs.forEach((tab, index) => {
+  tab.addEventListener('click', () => showCncProgram(tab.dataset.cncTab));
+  tab.addEventListener('keydown', (event) => {
+    const offset = event.key === 'ArrowRight' ? 1 : event.key === 'ArrowLeft' ? -1 : 0;
+    if (!offset && event.key !== 'Home' && event.key !== 'End') return;
+    event.preventDefault();
+    const next = event.key === 'Home' ? 0 : event.key === 'End' ? cncTabs.length - 1 : (index + offset + cncTabs.length) % cncTabs.length;
+    showCncProgram(cncTabs[next].dataset.cncTab, true);
+  });
+});
+showCncProgram(1);
+
+const professionalitetTabs = [...document.querySelectorAll('.professionalitet-tab')];
+const professionalitetPanels = [...document.querySelectorAll('.professionalitet-panel')];
+
+function showProfessionalitetCluster(number, focus = false) {
+  const activeTab = professionalitetTabs.find((tab) => tab.dataset.profiTab === String(number));
+  const activePanel = professionalitetPanels.find((panel) => panel.id === `profi-panel-${number}`);
+  if (!activeTab || !activePanel) return;
+
+  professionalitetTabs.forEach((tab) => {
+    const active = tab === activeTab;
+    tab.classList.toggle('is-active', active);
+    tab.setAttribute('aria-selected', String(active));
+    tab.tabIndex = active ? 0 : -1;
+    if (active && focus) tab.focus();
+  });
+  professionalitetPanels.forEach((panel) => {
+    const active = panel === activePanel;
+    panel.hidden = !active;
+    panel.setAttribute('aria-hidden', String(!active));
+  });
+}
+
+professionalitetTabs.forEach((tab, index) => {
+  tab.addEventListener('click', () => showProfessionalitetCluster(tab.dataset.profiTab));
+  tab.addEventListener('keydown', (event) => {
+    const offset = event.key === 'ArrowRight' ? 1 : event.key === 'ArrowLeft' ? -1 : 0;
+    if (!offset && event.key !== 'Home' && event.key !== 'End') return;
+    event.preventDefault();
+    const next = event.key === 'Home' ? 0 : event.key === 'End' ? professionalitetTabs.length - 1 : (index + offset + professionalitetTabs.length) % professionalitetTabs.length;
+    showProfessionalitetCluster(professionalitetTabs[next].dataset.profiTab, true);
+  });
+});
+showProfessionalitetCluster(1);
+
 const filters = [...document.querySelectorAll('.filter')];
 const directions = [...document.querySelectorAll('.direction-card')];
 const filterStatus = document.getElementById('filter-status');
