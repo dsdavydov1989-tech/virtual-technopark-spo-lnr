@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Плоскошлифовальный станок с ЧПУ российского производства</title>
+  <desc id="desc">Авторская учебная схема станка с магнитной плитой, шлифовальным кругом, стойкой ЧПУ и защитным кожухом.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#eef9ff"/><stop offset="1" stop-color="#cfe8f6"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1d668c"/><stop offset="1" stop-color="#124667"/></linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dcecf4"/><stop offset="1" stop-color="#8fb5c8"/></linearGradient>
+  </defs>
+  <rect width="1200" height="620" fill="url(#bg)"/>
+  <g stroke="#a8ccdc" stroke-width="2" opacity=".55">
+    <path d="M0 100h1200M0 190h1200M0 280h1200M0 370h1200M0 460h1200"/>
+    <path d="M120 0v500M280 0v500M440 0v500M600 0v500M760 0v500M920 0v500M1080 0v500"/>
+  </g>
+  <rect x="88" y="490" width="1030" height="34" rx="5" fill="#4c7d95"/>
+  <rect x="130" y="448" width="900" height="48" rx="4" fill="#9ebdca" stroke="#174f70" stroke-width="7"/>
+  <rect x="184" y="420" width="792" height="30" rx="4" fill="#e8f5fa" stroke="#174f70" stroke-width="6"/>
+  <rect x="235" y="452" width="72" height="45" fill="#194f6e"/>
+  <rect x="852" y="452" width="72" height="45" fill="#194f6e"/>
+  <path d="M280 420V155h170l35 45v220z" fill="url(#body)" stroke="#113e5b" stroke-width="8"/>
+  <path d="M450 155h275v265H485V200z" fill="#286e91" stroke="#113e5b" stroke-width="8"/>
+  <rect x="500" y="217" width="197" height="92" rx="8" fill="#132c40" stroke="#83d9ec" stroke-width="6"/>
+  <rect x="518" y="235" width="161" height="56" fill="#bce9f0"/>
+  <path d="M720 185h95v235h-95z" fill="#5a8fa6" stroke="#113e5b" stroke-width="8"/>
+  <rect x="747" y="220" width="41" height="115" fill="#c9e1ea" stroke="#113e5b" stroke-width="6"/>
+  <rect x="724" y="335" width="89" height="25" rx="4" fill="#173f5b"/>
+  <path d="M781 360v59" stroke="#113e5b" stroke-width="18"/>
+  <circle cx="781" cy="421" r="49" fill="#cbdde3" stroke="#113e5b" stroke-width="8"/>
+  <circle cx="781" cy="421" r="29" fill="#66899a" stroke="#e8f6fb" stroke-width="6"/>
+  <rect x="510" y="390" width="200" height="28" rx="4" fill="#162f43"/>
+  <rect x="540" y="366" width="140" height="25" rx="3" fill="#cbe3eb" stroke="#174f70" stroke-width="4"/>
+  <rect x="995" y="166" width="95" height="180" rx="7" fill="#245f7f" stroke="#113e5b" stroke-width="7"/>
+  <rect x="1012" y="188" width="61" height="70" fill="#bce9f0" stroke="#113e5b" stroke-width="4"/>
+  <circle cx="1029" cy="291" r="9" fill="#f2ad42"/><circle cx="1055" cy="291" r="9" fill="#4bd0bd"/>
+  <path d="M1002 346h82l28 55h-136z" fill="#6c9caf" stroke="#113e5b" stroke-width="7"/>
+  <text x="108" y="84" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#124667">ПЛОСКОШЛИФОВАЛЬНЫЙ СТАНОК · ЧПУ · РФ</text>
+  <text x="110" y="570" font-family="Arial, sans-serif" font-size="21" fill="#285b76">Авторская учебная иллюстрация · конкретная модель и характеристики определяются техническим заданием</text>
+</svg>
